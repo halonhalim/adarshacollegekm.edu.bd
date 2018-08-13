@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.scroll-text {
+  height: 545px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px dotted #cfcfcf;
+  padding: 0px;
+}
+.scroll-text ul {
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+.scroll-text ul li {
+  list-style:none;
+  height:auto;
+  padding-bottom:15px;
+}
+.scroll-text ul li img{
+    width: 210px;
+}
+.scroll-text ul li a{
+    font-size:14px;
+    font-family:Verdana, Geneva, sans-serif;
+    color:#000;
+    text-decoration:none;
+}
+.scroll-text ul li a:hover{
+	text-decoration:none;
+	}
+
+/*===========================================================Home=================================================================*/

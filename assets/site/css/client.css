@@ -1,0 +1,114 @@
+
+ #flexiselDemo3 {
+    display:none;
+}
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+	margin-bottom:10px;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    text-align:center;
+}
+.nbs-flexisel-inner {
+    overflow:hidden;
+    width:100%;
+}
+.nbs-flexisel-item {
+    float:left;
+    margin:0px ;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+
+.nbs-flexisel-item img {
+    /*width: 100%;*/
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:170px;
+    /*height: 270px;*/
+    /*max-height:1505px;*/
+}
+
+/*** Navigation ***/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+.nbs-flexisel-nav-left {
+    left: 7px;
+    top: -40px !important;
+    background: url(../images/interface/previous.png) no-repeat;
+}
+.nbs-flexisel-nav-left:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.1);
+}
+.nbs-flexisel-nav-right {
+    top: -40px !important;
+    right: 7px;
+    background: url(../images/interface/next.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.1);
+}
+/*----------*/
+.gallery_box{
+    background: #fff;
+    border: 1px solid #cec5b1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    height: auto;
+}
+.gallery_box:hover{
+    border: 1px solid #f00;
+    opacity: .8;
+}
+.gallery_box h4{
+    font-size: 20px;
+    line-height: 64px;
+    color: #505050;
+    font-family: 'Philosopher', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    .nbs-flexisel-nav-left{
+        left: 5px;
+    }
+    .nbs-flexisel-nav-right{
+        right: 5px;
+    }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .nbs-flexisel-nav-left{
+        left: 5px;
+    }
+    .nbs-flexisel-nav-right{
+        right: 5px;
+    }
+
+}
